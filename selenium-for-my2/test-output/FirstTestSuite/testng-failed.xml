@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FirstTestSuite]">
+  <test thread-count="5" name="NegativeTest(failed)">
+    <classes>
+      <class name="com.inthinc.my.NegativeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="negativeTest"/>
+        </methods>
+      </class> <!-- com.inthinc.my.NegativeTests -->
+    </classes>
+  </test> <!-- NegativeTest(failed) -->
+</suite> <!-- Failed suite [FirstTestSuite] -->
